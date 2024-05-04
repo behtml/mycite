@@ -2,6 +2,8 @@
 body{
     margin: 0;
     padding: 0;
+    background-attachment: fixed;
+    background-color: black;
 }
 header{
     width: auto;
@@ -9,7 +11,7 @@ header{
     background-image: url('../img/blackman.png');
     background-size: auto 920px;
     background-repeat: no-repeat;
-    box-shadow: 0px 4px 4px 471px rgba(0, 0, 0, 0.25) inset;
+    margin-bottom: 0;
 }
 
 header ul li{
@@ -30,7 +32,9 @@ header ul{
 main{
     background-color: black;
     width: auto;
-    height: 7032px;
+    height: 100%;
+    
+
 }
 .postav{
     width: 471px;
@@ -54,4 +58,28 @@ main{
     position: absolute;
     top: 616px;
     right: 212px;
+}
+h2{
+    margin-bottom: 0;
+    margin-left: 809px;
+    margin-top: 23px;
+    width: 303px;
+    height: 144px;
+    color: white;
+    font-size: 96px;
+    font-family: Montserrat;
+    font-weight: 400;
+    word-wrap: "break-word";
+}
+.man_with_laptop{
+    width: 742px;
+    height: 462px;
+    margin-left: 101px;
+    margin-top: calc(290px - 144px - 23px);
+}
+.best_pr{
+    margin-top: calc(290px - 144px - 23px);
+    margin-right: 271px;
+    margin-left: 1071px;
+    color: white; font-size: 48px; font-family: Montserrat; font-weight: 700;
 }
